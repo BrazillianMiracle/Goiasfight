@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goiás Fight | Hub Oficial de Lutas em Goiânia</title>
+    <meta name="description" content="O calendário oficial, notícias e loja de equipamentos para esportes de combate em Goiânia e região metropolitana.">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content container">
+            <h1 class="logo">GOIÁS FIGHT</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#agenda">Agenda de Lutas</a></li>
+                    <li><a href="#shopping">Shopping</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#contato" class="cta-link">Divulgue seu Evento</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">
+                <span class="sr-only">Abrir Menu</span>
+                &#9776; 
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content container">
+                <p class="hero-subtitle">Próxima Grande Luta em Goiás</p>
+                <h2 id="evento-title" class="hero-title">CARREGANDO EVENTO PRINCIPAL</h2>
+                <p id="evento-data" class="hero-date">Aguarde a Luta Principal!</p>
+                
+                <a id="cta-whatsapp-hero" href="#" class="cta-button pulse" target="_blank" aria-label="Garantir ingresso via WhatsApp">
+                    GARANTIR INGRESSO
+                </a>
+                
+                <p class="cta-info">Venda e Inscrição Centralizada via WhatsApp</p>
+            </div>
+        </section>
+
+        <section id="agenda" class="section agenda-section container">
+            <h2 class="section-title">Próximos Confrontos 🔥</h2>
+            
+            <div id="proximos-eventos" class="agenda-layout">
+                <p class="loading-message">Carregando cards de luta...</p>
+            </div>
+        </section>
+
+        <section id="shopping" class="section shopping-section">
+            <div class="container">
+                <h2 class="section-title color-inverted">Shopping Fight Gear 🛡️</h2>
+                <p class="section-subtitle color-inverted">Equipamentos Profissionais Direto com a Goiás Fight.</p>
+                <div id="produtos-destaque" class="grid-layout product-grid">
+                    <p class="loading-message color-inverted">Carregando destaques da loja...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="parceiros" class="section parceiros-section">
+            <div class="container">
+                <h2 class="section-title">Parceiros Oficiais 🤝</h2>
+                <div class="parceiros-content">
+                    <img src="img/banner-parceiros.jpg" alt="Logos dos patrocinadores oficiais do Goiás Fight" class="parceiros-banner">
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio-section container">
+            <h2 class="section-title">Nossas Parcerias de Sucesso 🏆</h2>
+            <div id="portfolio-galeria" class="grid-layout portfolio-grid">
+                <p class="loading-message">Carregando histórico de parcerias...</p>
+            </div>
+        </section>
+        
+        <section id="servicos-cta" class="section cta-servicos">
+            <div class="container cta-servicos-content">
+                <h3>Quer Promover seu Workshop, Academia ou Personal Fight?</h3>
+                <a id="cta-servicos-whatsapp" href="#" class="cta-button secondary-button" target="_blank">FALE CONOSCO (WHATSAPP)</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Goiás Fight. Todos os direitos reservados. | Desenvolvido para a comunidade de lutas.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram Goiás Fight">Instagram</a>
+                <a href="#" id="whatsapp-footer" aria-label="WhatsApp de Suporte">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
